@@ -2,8 +2,6 @@
 build/*
 !bin/*
 bin/*
-!testCoverage/*
-testCoverage/*
 !cmake-build-debug/*
 cmake-build-debug/*
 !.idea/*
