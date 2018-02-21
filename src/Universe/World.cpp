@@ -19,7 +19,7 @@ void World::setAdjacentList(vector<World*> _adjacentList) { adjacentList = _adja
 //Adjacent operations
 void World::addAdjacent(World* adj) {
     for(auto i : adjacentList){
-        if(i->name == adj->getName()) throw logic_error("World is already adjacent!");
+        if(i->name == adj->getName()) return;//throw logic_error("World is already adjacent!");
     }
     adjacentList.push_back(adj);
 }

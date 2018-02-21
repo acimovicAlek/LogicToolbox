@@ -1,6 +1,6 @@
 //
 // Created by infloop on 9/10/17.
-//
+
 #include "../../include/Graph.h"
 
 Graph::Graph(Universe* universe) {

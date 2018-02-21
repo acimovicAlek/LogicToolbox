@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="LogicToolbox" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\docs\;CMake Files\testCoverage\;CMake Files\ThirdParty\;CMake Files\ThirdParty\tmp\;CMake Files\src\;CMake Files\test\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="docs">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 docs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uninstall">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 uninstall" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="googletest">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/testCoverage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 googletest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="LogicToolbox-lib_test">
+         <Option output="/home/infloop/Documents/LogicToolbox/bin/LogicToolbox-lib_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/ThirdParty/src/googletest/googletest/include" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/testCoverage" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/testCoverage/../include/ModuleOne" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 LogicToolbox-lib_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="LogicToolbox-lib_test/fast">
+         <Option output="/home/infloop/Documents/LogicToolbox/bin/LogicToolbox-lib_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/ThirdParty/src/googletest/googletest/include" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/testCoverage" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/testCoverage/../include/ModuleOne" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 LogicToolbox-lib_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="check">
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/testCoverage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 check" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/testCoverage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="logictoolbox">
+         <Option output="/home/infloop/Documents/LogicToolbox/lib/liblogictoolbox.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 logictoolbox" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="logictoolbox/fast">
+         <Option output="/home/infloop/Documents/LogicToolbox/lib/liblogictoolbox.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 logictoolbox/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="LogicToolbox">
+         <Option output="/home/infloop/Documents/LogicToolbox/bin/LogicToolbox" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test/../../include/ModuleOne" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 LogicToolbox" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="LogicToolbox/fast">
+         <Option output="/home/infloop/Documents/LogicToolbox/bin/LogicToolbox" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test/../../include/ModuleOne" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 LogicToolbox/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="LogicToolbox-lib">
+         <Option output="/home/infloop/Documents/LogicToolbox/lib/libLogicToolbox.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/test" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test/../../include/ModuleOne" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 LogicToolbox-lib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="LogicToolbox-lib/fast">
+         <Option output="/home/infloop/Documents/LogicToolbox/lib/libLogicToolbox.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/infloop/Documents/LogicToolbox/test" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/infloop/Documents/LogicToolbox" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/src" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test" />
+            <Add directory="/home/infloop/Documents/LogicToolbox/test/../../include/ModuleOne" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 LogicToolbox-lib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/infloop/Documents/LogicToolbox/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/CoreEvaluator.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/Expression.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/Graph.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/Operators.h">
+         <Option target="LogicToolbox-lib_test"/>
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/ResultTree.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/Token.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/Universe.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/Variable.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/include/World.h">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Core/Operators.cpp">
+         <Option target="LogicToolbox-lib_test"/>
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Evaluator/CoreEvaluator.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Evaluator/ResultTree.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Graph/Graph.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Parser/Expression.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Parser/Token.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Universe/Universe.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Universe/Variable.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/Universe/World.cpp">
+         <Option target="logictoolbox"/>
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/test/hello.cpp">
+         <Option target="LogicToolbox"/>
+         <Option target="LogicToolbox-lib"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/test/hello.h">
+         <Option target="LogicToolbox"/>
+         <Option target="LogicToolbox-lib"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/test/main.cpp">
+         <Option target="LogicToolbox"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/testCoverage/test_hello.cpp">
+         <Option target="LogicToolbox-lib_test"/>
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/cmake/SetEnv.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/cmake/InstallConfig.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/cmake/Config.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/cmake/ConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/cmake/Uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/cmake/LibraryConfig.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/docs/Doxyfile.in">
+          <Option virtualFolder="CMake Files\docs\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/testCoverage/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\testCoverage\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/ThirdParty/tmp/googletest-cfgcmd.txt.in">
+          <Option virtualFolder="CMake Files\ThirdParty\tmp\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/src/version.h.in">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/infloop/Documents/LogicToolbox/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

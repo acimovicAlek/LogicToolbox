@@ -1,11 +1,11 @@
 //
 // Created by infloop on 9/10/17.
-//
+
 
 #ifndef LOGICTOOLBOX_GRAPH_H
 #define LOGICTOOLBOX_GRAPH_H
 
-#include "graphviz/gvc.h"
+#include <graphviz/gvc.h>
 #include "ResultTree.h"
 #include "Universe.h"
 #include <fstream>

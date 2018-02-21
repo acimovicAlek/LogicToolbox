@@ -30,8 +30,8 @@ void Universe::addVariable(string _name) {
 vector<World*> Universe::getWorlds() const { return worlds; }
 
 void Universe::addWorld(World world) {
-    if(worlds.size() >= pow(2,variableNames.size())) throw domain_error("There can not be more worlds!");
-    else worlds.push_back(&world);
+    /*if(worlds.size() >= pow(2,variableNames.size())) throw domain_error("There can not be more worlds!");
+    else*/ worlds.push_back(&world);
 }
 
 void Universe::setVariableNames(vector<string> _variableNames) {

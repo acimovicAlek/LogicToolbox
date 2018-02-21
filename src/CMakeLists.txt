@@ -6,6 +6,6 @@ set(TARGET_NAME LogicToolbox)
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*/*.cpp)
 
 # Set HEADERS variable
-file(GLOB HEADERS ${TARGET_NAME}/include/*.h)
+file(GLOB HEADERS ${CMAKE_SOURCE_DIR}/include/*.h)
 
 include(${CMAKE_SOURCE_DIR}/cmake/LibraryConfig.cmake)
